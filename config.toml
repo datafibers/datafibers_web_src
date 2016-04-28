@@ -1,0 +1,255 @@
+# Site settings
+baseurl = "http://datafibers.github.io/"
+languageCode = "en-us"
+title = "DataFibers - Your Open Source Enterprise Big Data Bus"
+theme = "hugo-agency-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) or
+	# most longer texts.
+	#
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "DataFibers"
+	description = "Your Open Source Enterprise Big Data Bus"
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "datafibers@gmail.com"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "DataFibers"
+		services = "Features"
+		portfolio = "Documents"
+		about = "About"
+		team = "Team"
+		contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #    url = "http://gohugo.io"
+    #    name = "Hugo"
+    #    weight = 10
+
+    # postpended links
+    [[menu.postpend]]
+        url = "http://www.datafibers.org"
+        name = "Get DataFibers"
+        weight = 10
+
+
+	# Hero section
+	[params.hero]
+		# To change the background image of the hero, replace 'header-bg.jpg' in
+		# the 'static/img' folder.
+		title = "Welcome To DataFibers!"
+		subtitle = "Your Open Source <br>Big Data Bus"
+		buttonText = "Discover More"
+
+
+	# Services section
+	[params.services]
+        enable = true
+		title = "Features"
+		subtitle = "How unique features does datafibers comes with."
+
+        [[params.services.row]]
+
+            [[params.services.row.list]]
+                icon = "fa-simplybuilt "
+                title = "SIMPLE"
+                description = "Simply build, plug, and subscribe your data anywhere."
+
+            [[params.services.row.list]]
+                icon = "fa-steam"
+                title = "FLEXIBLE"
+                description = "Batch processing, stream process, and both are right at hand."
+
+            [[params.services.row.list]]
+                icon = "fa-rocket"
+                title = "POWERFUL"
+                description = "Data discovering, managing, transforming, caching are all in one place."
+
+	# Portfolio section
+	[params.portfolio]
+        enable = true
+		# All projects defined in their own files. You can find example projects
+		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+		# at the root of this Hugo site.
+		# For more informtion take a look at the README.
+		title = "Documents"
+		subtitle = "Get to know more about DataFibers."
+
+		[params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttonText = "Close"
+
+
+    # About section
+	[params.about]
+        enable = true
+		title = "About"
+		subtitle = "When we look back and forward."
+		endpoint = "Be part<br>of our<br>story!"
+
+		# The events will be listed from the top to the bottom.
+		# All images are stored under 'static/img/about'.
+		# Replace them with your own.
+		[[params.about.events]]
+			img = "1.jpg"
+			date = "March-2016"
+			title = "Our Humble Beginnings"
+			description = "A group of people who always think to do best are gettogether!"
+
+		[[params.about.events]]
+			img = "2.jpg"
+			date = "April 2016"
+			title = "DataFibers was Born"
+			description = "We built our logo and website for DataFibers to remember who we are."
+
+		[[params.about.events]]
+			img = "3.jpg"
+			date = "Ongoing 2016"
+			title = "Working Hard to Ship"
+			description = "We are calling for talents to work together on the first release soon."
+
+
+	# Team section
+	[params.team]
+        enable = false
+		title = "Our amazing team"
+		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+		# All team member's pictures are stored under 'static/img/team'.
+		# Replace them with your own too.
+		[[params.team.members]]
+			img = "1.jpg"
+			name = "Kay Garland"
+			position = "Lead Designer"
+			social = [
+				["fa-twitter", "#"],
+				["fa-facebook", "#"],
+				["fa-linkedin", "#"]
+			]
+
+		[[params.team.members]]
+			img = "2.jpg"
+			name = "Larry Parker"
+			position = "Lead Marketer"
+			social = [
+				["fa-twitter", "#"],
+				["fa-facebook", "#"],
+				["fa-linkedin", "#"]
+			]
+
+		[[params.team.members]]
+			img = "3.jpg"
+			name = "Diana Pertersen"
+			position = "Lead Developer"
+			social = [
+				["fa-twitter", "#"],
+				["fa-facebook", "#"],
+				["fa-linkedin", "#"]
+			]
+
+	# Client section
+    [params.clients_list]
+        enable = true
+
+    	# All the clients' logos are stored under 'static/img/logos'.
+    	# Replace them with your clients's logos.
+    	[[params.clients]]
+    		logo = "hadoop.png"
+    		link = "#"
+
+    	[[params.clients]]
+    		logo = "kafaka.png"
+    		link = "#"
+
+    	[[params.clients]]
+    		logo = "spark.png"
+    		link = "#"
+
+    	[[params.clients]]
+    		logo = "flink.png"
+    		link = "#"
+			
+
+	# Contact section
+	[params.contact]
+        enable = true
+		title = "Contact Us"
+		subtitle  = "Your suggestions are always our treasure."
+		buttonText = "Send Message"
+
+		# 'warning' defines error messages for invalid inputs
+		[params.contact.form.name]
+			text = "Your Name *"
+			warning = "Please enter your name."
+
+		[params.contact.form.email]
+			text = "Your Email *"
+			warning = "Please enter your email address."
+
+		[params.contact.form.phone]
+			text = "Your Phone *"
+			warning = "Please enter your phone number."
+
+		[params.contact.form.message]
+			text = "Your Message *"
+			warning = "Please enter a message."
+
+
+	# Footer section
+	[params.footer]
+        enable = true
+		copyright = "Published under the Apache License 2.0."
+
+		[[params.footer.social]]
+			icon = "fa-twitter"
+			link = "#"
+
+		[[params.footer.social]]
+			icon = "fa-facebook"
+			link = "#"
+
+		[[params.footer.social]]
+			icon = "fa-envelope"
+			link = "mailto:datafibers@gmail.com"
+			
+		[[params.footer.social]]
+			icon = "fa-github"
+			link = "https://github.com/datafibers"
+
+		[[params.footer.quicklinks]]
+			text = "Privacy Policy"
+			link = "http://www.apache.org/foundation/policies/privacy.html"
+
+		[[params.footer.quicklinks]]
+			text = "Terms of Use"
+			link = "http://www.apache.org/licenses/LICENSE-2.0"
