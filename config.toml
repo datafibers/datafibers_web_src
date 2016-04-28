@@ -121,7 +121,7 @@ googleAnalytics = ""
 		# Replace them with your own.
 		[[params.about.events]]
 			img = "1.jpg"
-			date = "March-2016"
+			date = "March 2016"
 			title = "Our Humble Beginnings"
 			description = "A group of people who always think to do best are gettogether!"
 
