@@ -4,7 +4,7 @@ languageCode = "en-us"
 title = "DataFibers - Your Open Source Enterprise Big Data Bus"
 theme = "hugo-agency-theme"
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-40213017-3"
 
 [params]
 
@@ -64,7 +64,7 @@ googleAnalytics = ""
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "Welcome To DataFibers!"
+		title = "Welcome To DataFibers"
 		subtitle = "Your Open Source <br>Big Data Bus"
 		buttonText = "Discover More"
 
@@ -80,17 +80,17 @@ googleAnalytics = ""
             [[params.services.row.list]]
                 icon = "fa-simplybuilt "
                 title = "SIMPLE"
-                description = "Simply build, plug, and subscribe your data anywhere."
+                description = "Simply build, plug, and immediately subscribe your data anywhere at anytime."
 
             [[params.services.row.list]]
                 icon = "fa-steam"
                 title = "FLEXIBLE"
-                description = "Batch processing, stream process, and both are right at hand."
+                description = "Batch, Stream, Real-Time, or Hybrid data processing are right at hand."
 
             [[params.services.row.list]]
                 icon = "fa-rocket"
                 title = "POWERFUL"
-                description = "Data discovering, managing, transforming, caching are all in one place."
+                description = "Data discovery, transfer, transform, cache, management are all in one place."
 
 	# Portfolio section
 	[params.portfolio]
@@ -103,7 +103,7 @@ googleAnalytics = ""
 		subtitle = "Get to know more about DataFibers."
 
 		[params.portfolio.modal]
-            client = "Client"
+            client = "Author"
             date = "Date"
             category = "Category"
             buttonText = "Close"
@@ -113,7 +113,7 @@ googleAnalytics = ""
 	[params.about]
         enable = true
 		title = "About"
-		subtitle = "When we look back and forward."
+		subtitle = "When we look back and move forward."
 		endpoint = "Be part<br>of our<br>story!"
 
 		# The events will be listed from the top to the bottom.
@@ -123,13 +123,13 @@ googleAnalytics = ""
 			img = "1.jpg"
 			date = "March 2016"
 			title = "Our Humble Beginnings"
-			description = "A group of people who always think to do best are gettogether!"
+			description = "We gathered a group of people who share the same vision to make big data greater."
 
 		[[params.about.events]]
 			img = "2.jpg"
 			date = "April 2016"
 			title = "DataFibers was Born"
-			description = "We built our logo and website for DataFibers to remember who we are."
+			description = "We created our logo, domain, and website to remind who we are."
 
 		[[params.about.events]]
 			img = "3.jpg"
@@ -228,7 +228,7 @@ googleAnalytics = ""
 	# Footer section
 	[params.footer]
         enable = true
-		copyright = "Published under the Apache License 2.0."
+		copyright = "DataFibers, welcome You the No."
 
 		[[params.footer.social]]
 			icon = "fa-twitter"
@@ -239,8 +239,8 @@ googleAnalytics = ""
 			link = "#"
 
 		[[params.footer.social]]
-			icon = "fa-envelope"
-			link = "mailto:datafibers@gmail.com"
+			icon = "fa-users"
+			link = "mailto:datafibers@googlegroups.com"
 			
 		[[params.footer.social]]
 			icon = "fa-github"
@@ -251,5 +251,5 @@ googleAnalytics = ""
 			link = "http://www.apache.org/foundation/policies/privacy.html"
 
 		[[params.footer.quicklinks]]
-			text = "Terms of Use"
+			text = "Apache License"
 			link = "http://www.apache.org/licenses/LICENSE-2.0"
