@@ -73,7 +73,7 @@ googleAnalytics = "UA-40213017-3"
 	[params.services]
         enable = true
 		title = "Features"
-		subtitle = "How unique features does datafibers comes with."
+		subtitle = "How unique features does DataFibers comes with."
 
         [[params.services.row]]
 
@@ -98,7 +98,7 @@ googleAnalytics = "UA-40213017-3"
 		# All projects defined in their own files. You can find example projects
 		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
 		# at the root of this Hugo site.
-		# For more informtion take a look at the README.
+		# For more information take a look at the README.
 		title = "Documents"
 		subtitle = "Get to know more about DataFibers."
 
@@ -185,19 +185,19 @@ googleAnalytics = "UA-40213017-3"
     	# Replace them with your clients's logos.
     	[[params.clients]]
     		logo = "hadoop.png"
-    		link = "#"
+    		link = "http://hadoop.apache.org/"
 
     	[[params.clients]]
     		logo = "kafaka.png"
-    		link = "#"
+    		link = "http://kafka.apache.org/"
 
     	[[params.clients]]
     		logo = "spark.png"
-    		link = "#"
+    		link = "http://spark.apache.org/"
 
     	[[params.clients]]
     		logo = "flink.png"
-    		link = "#"
+    		link = "https://flink.apache.org/"
 			
 
 	# Contact section
