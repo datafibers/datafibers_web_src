@@ -233,15 +233,15 @@ googleAnalytics = "UA-40213017-3"
 	# Footer section
 	[params.footer]
         enable = true
-		copyright = "DataFibers, welcome You the No."
+		copyright = "DataFibers, Welcome Your No."
 
 		[[params.footer.social]]
 			icon = "fa-twitter"
-			link = "#"
+			link = "http://twitter.com/datafibers1"
 
 		[[params.footer.social]]
 			icon = "fa-facebook"
-			link = "#"
+			link = "http://www.facebook.com/data.fibers"
 
 		[[params.footer.social]]
 			icon = "fa-users"
@@ -249,7 +249,7 @@ googleAnalytics = "UA-40213017-3"
 			
 		[[params.footer.social]]
 			icon = "fa-github"
-			link = "https://github.com/datafibers"
+			link = "http://github.com/datafibers"
 
 		[[params.footer.quicklinks]]
 			text = "Privacy Policy"
