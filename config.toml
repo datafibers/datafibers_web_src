@@ -52,10 +52,15 @@ googleAnalytics = "UA-40213017-3"
     #    url = "http://gohugo.io"
     #    name = "Hugo"
     #    weight = 10
+    # postpended links
+    # [[menu.postpend]]
+    #     url = "/#contact"
+    #     name = "Get DataFibers"
+    #    weight = 10
 
     # postpended links
-    [[menu.postpend]]
-        url = "http://www.datafibers.org"
+    [[menu.prepend]]
+        url = "/#contact"
         name = "Get DataFibers"
         weight = 10
 
@@ -221,7 +226,7 @@ googleAnalytics = "UA-40213017-3"
 			warning = "Please enter your phone number."
 
 		[params.contact.form.message]
-			text = "Your Message *"
+			text = "We are working hard to ship the DataFibers. We'll keep you updated once we receive your message."
 			warning = "Please enter a message."
 
 
