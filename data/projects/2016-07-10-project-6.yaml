@@ -7,15 +7,14 @@ preview: dreams-preview.png
 client: DataFibers
 clientLink: "#"
 category: Communities Resources
-description: "Below is how to join us to contribute DataFiber.
-<ul>
-<li>Get to know about the project at [datafibers.org](http://www.datafibers.org) | [datafibers.com](http://www.datafibers.com)</li>
-<li>**Watch** and **Star** us in [GitHub](http://github.com/datafibers)</li>
-<li>**Fork** and **Pull Request** when you have ideas to contribute</li>
-<li>Contact Us for participant at **datafibers@gmail.com**</li>
-<li>Join our discussion and ask questions at **datafibers@googlegroups.com**</li>
-<li>Hear our news and events @ [Facebook](http://www.facebook.com/data.fibers) or [Twitter](http://twitter.com/datafibers1)</li>
-<li>Our Meetup is incoming</li>
-</ul>
-"
+description: | 
+ Below is how to join us to contribute DataFiber.
+
+ * Get to know about the project at [datafibers.org](http://www.datafibers.org) | [datafibers.com](http://www.datafibers.com)
+ * **Watch** and **Star** us in [GitHub](http://github.com/datafibers)
+ * **Fork** and **Pull Request** when you have ideas to contribute
+ * Contact Us for participant at **datafibers@gmail.com**
+ * Join our discussion and ask questions at **datafibers@googlegroups.com**
+ * Hear our news and events @ [Facebook](http://www.facebook.com/data.fibers) or [Twitter](http://twitter.com/datafibers1)
+ * Our Meetup is incoming
 

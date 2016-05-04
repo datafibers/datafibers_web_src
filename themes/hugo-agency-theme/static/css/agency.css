@@ -275,11 +275,12 @@ header {
 }
 
 header .intro-text {
-
 	top: 50%; left: 50%;
     padding-top: 100px;
     padding-bottom: 50px;
-	transform: translate(-0%, -0%);
+	-webkit-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
 }
 
 header .intro-text .intro-lead-in {
@@ -297,15 +298,15 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
-
-
 }
 
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
-		transform: translate(-0%, -0%);
+        -webkit-transform: translate(0%, 0%);
+        -ms-transform: translate(0%, 0%);
+        transform: translate(0%, 0%);
     }
 
     header .intro-text .intro-lead-in {
