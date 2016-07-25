@@ -1,14 +1,15 @@
 modalID: 6
 title: Ecosystems and more
 subtitle: How to rock with us.
-date: 2014-07-10
-img: dreams.png
+date: 2016-07-10
+img: contribute.png
 preview: dreams-preview.png
 client: DataFibers
 clientLink: "#"
 category: Communities Resources
-description: | 
- Below is how to join us to contribute DataFiber.
+description: |
+ 
+ ### how to join DataFibers - DF
 
  * Get to know about the project at [datafibers.org](http://www.datafibers.org) | [datafibers.com](http://www.datafibers.com)
  * **Watch** and **Star** us in [GitHub](http://github.com/datafibers)
@@ -17,4 +18,20 @@ description: |
  * Join our discussion and ask questions at **datafibers@googlegroups.com**
  * Hear our news and events @ [Facebook](http://www.facebook.com/data.fibers) or [Twitter](http://twitter.com/datafibers1)
  * Our Meetup is incoming
+ 
+ ### DF Repositories
+
+ * [df](https://github.com/datafibers/df) - Core micro-service client and server
+ * [df_demo](https://github.com/datafibers/df_demo) - This is where we build demo for datafibers usage as well as environment setup
+ * [datafibers_web_src](https://github.com/datafibers/datafibers_web_src) - This is the source for this website
+
+ ### steps to contribute
+
+ 1. **Fork** DF master branch to your own repository 
+ 2. Work on the code with your preferred Java IDF
+ 3. Once done, check in your code as a monthly development individual branch called: **development_YourName_FeatureName_YYYYMM** to your own repository
+ 4. Create a full request to the monthly development branch called: **development_YYYYMM** in DF repositories from your own branch
+ 5. Do proper code merge and changes until you can successfully merge your code
+ 6. At every month end, DF PMC will merge the monthly development branch to the master
+
 
