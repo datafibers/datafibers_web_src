@@ -8,4 +8,8 @@ client: DataFibers
 clientLink: "#"
 category: Quick Start Document
 description: |
- <iframe class="scribd_iframe_embed" src="https://www.scribd.com/embeds/319189322/content?start_page=1&view_mode=slideshow&access_key=key-Cxuh4k5e9ep5kIhCcaLd&show_recommendations=true&show_upsell=false" data-auto-height="false" data-aspect-ratio="1.7790927021696252" scrolling="no" id="doc_91477" width="800" height="600" frameborder="0"></iframe>
+ We are building DataFibers to polish our best practice in big data ingestion, transformation, and reuse.
+ We are sharing DataFibers to help more people gain big data knowledge and experience.
+ Pls. check out the overview of DataFibers and [subcribe](mailto:datafibers+subscribe@googlegroups.com) from us.
+
+ <embed src="img/doc/DataFibers_Overview.pdf" width="710" height="480" type='application/pdf'>
