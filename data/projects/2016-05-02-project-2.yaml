@@ -2,9 +2,10 @@ modalID: 2
 title: Quick Start Guideline
 subtitle: How to bring your DataFibers up running.
 date: 2016-07-06
-img: startup-framework.png
+img: doc_cover.jpg
 preview: startup-framework-preview.png
 client: DataFibers
 clientLink: "#"
 category: User Document
-description: Coming soon.
+description: |
+ Pls. refer to [DataFibers Complete Guide](https://www.gitbook.com/read/book/datafibers/datafibers-complete-guide) 

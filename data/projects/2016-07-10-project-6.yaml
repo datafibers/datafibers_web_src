@@ -21,7 +21,7 @@ description: |
  
  ### DF Repositories
 
- * [df](https://github.com/datafibers/df) - Core micro-service client and server
+ * [datafibers data service](https://github.com/datafibers/df_data_service) - Core DataFibers Service
  * [df_demo](https://github.com/datafibers/df_demo) - This is where we build demo for datafibers usage as well as environment setup
  * [datafibers_web_src](https://github.com/datafibers/datafibers_web_src) - This is the source for this website
 
