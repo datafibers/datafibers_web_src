@@ -12,7 +12,7 @@ description: |
  ### how to join DataFibers - DF
 
  * Get to know about the project at [datafibers.org](http://www.datafibers.org) | [datafibers.com](http://www.datafibers.com)
- * **Watch** and **Star** us in [GitHub](http://github.com/datafibers)
+ * **Watch** and **Star** us in [GitHub](https://github.com/datafibers-community)
  * **Fork** and **Pull Request** when you have ideas to contribute
  * Contact Us for participant at **datafibers@gmail.com**
  * Join our discussion and ask questions at **datafibers@googlegroups.com**
@@ -21,9 +21,9 @@ description: |
  
  ### DF Repositories
 
- * [datafibers data service](https://github.com/datafibers/df_data_service) - Core DataFibers Service
- * [df_demo](https://github.com/datafibers/df_demo) - This is where we build demo for datafibers usage as well as environment setup
- * [datafibers_web_src](https://github.com/datafibers/datafibers_web_src) - This is the source for this website
+ * [datafibers data service](https://github.com/datafibers-community/df_data_service) - Core DataFibers Service
+ * [df_demo](https://github.com/datafibers-community/df_demo) - This is where we build demo for DataFibers and other tookit
+ * [df_complete_guide](https://github.com/datafibers-community/df_complete_guide) - This is the source for DataFibers complete guide
 
  ### steps to contribute
 

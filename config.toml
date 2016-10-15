@@ -249,7 +249,7 @@ googleAnalytics = "UA-40213017-3"
 			
 		[[params.footer.social]]
 			icon = "fa-github"
-			link = "http://github.com/datafibers"
+			link = "http://github.com/datafibers-community"
 
 		[[params.footer.quicklinks]]
 			text = "Privacy Policy"
