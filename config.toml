@@ -60,7 +60,7 @@ googleAnalytics = "UA-40213017-3"
 
     # postpended links
     [[menu.prepend]]
-        url = "/#contact"
+        url = "https://github.com/datafibers-community"
         name = "Get DataFibers"
         weight = 10
 
@@ -126,21 +126,21 @@ googleAnalytics = "UA-40213017-3"
 		# Replace them with your own.
 		[[params.about.events]]
 			img = "1.jpg"
-			date = "March 2016"
+			date = "MAY 2016"
 			title = "Our Humble Beginnings"
 			description = "We gathered a group of people who share the same vision to make big data greater."
 
 		[[params.about.events]]
 			img = "2.jpg"
-			date = "April 2016"
+			date = "JAN 2017"
 			title = "DataFibers was Born"
-			description = "We created our logo, domain, and website to remind who we are."
+			description = "We have shipped our first pre-production version."
 
 		[[params.about.events]]
 			img = "3.jpg"
-			date = "Ongoing 2016"
-			title = "Working Hard to Ship"
-			description = "We are calling for talents to work together on the first release soon."
+			date = "Looking Forward"
+			title = "Work Hard and Play Hard"
+			description = "We are calling for talents to work with us on the first offical release soon."
 
 
 	# Team section
@@ -249,7 +249,7 @@ googleAnalytics = "UA-40213017-3"
 			
 		[[params.footer.social]]
 			icon = "fa-github"
-			link = "http://github.com/datafibers-community"
+			link = "https://github.com/datafibers-community"
 
 		[[params.footer.quicklinks]]
 			text = "Privacy Policy"
